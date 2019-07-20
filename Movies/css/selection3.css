@@ -1,0 +1,51 @@
+.wrapper {
+	display: flex;
+	align-items: stretch;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+button {
+     background:none!important;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+
+.searchnav {
+	margin-top: 57px;
+}
+
+.movie-container {
+	min-height: 360px;
+	min-width: 250px;
+	max-height: 360px;
+	max-width: 250px;
+}
+
+.movie-cover {
+	height: 300px;
+	width: 211px;
+}
+
+.main {
+	/*margin-left: 200px;*/
+	margin-top: 50px;
+	min-width: 100%;
+}
+
+#sidenav{
+	padding: 10px;
+	width: 200px;
+	min-height: 100vh;
+}
+
+ul li ul li{
+	margin-left: 15px;
+}

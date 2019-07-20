@@ -1,0 +1,35 @@
+body {
+	background-image: url("../img/movies-tiles.jpg");
+	padding-top: 5rem;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: stretch;
+}
+
+.main {
+}
+
+#credentialsForm{
+	margin-top: 30vh;
+	min-width: 500px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#user {
+	min-width: 400px;
+}
+
+#pass {
+	min-width: 400px;
+}
+
+#buttonlogin {
+	margin-left: 300px;
+	min-width: 100px;
+}
